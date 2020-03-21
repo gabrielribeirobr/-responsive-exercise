@@ -56,3 +56,9 @@ body{
   background-color: transparent !important;
   cursor: pointer;
 }
+
+@media (max-width: 520px){
+  .menu ul{
+    display: block;
+  }
+}
