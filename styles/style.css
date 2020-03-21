@@ -9,6 +9,50 @@ body{
 
 .menu{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 16pt;
+  font-size: 15pt;
   width: 100%;
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.menu ul li{
+  padding: 20px;
+  flex-grow: 1;
+  transition:  background-color .2s linear;
+  border: solid 1px transparent;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+#item1{
+  background-color: rgb(0, 188, 245);
+}
+
+#item2{
+  background-color: rgb(0, 164, 214);
+}
+
+#item3{
+  background-color: rgb(0, 145, 189);
+}
+
+#item4{
+  background-color: rgb(1, 116, 151);
+}
+
+#item5{
+  background-color: rgb(1, 88, 114);
+}
+
+.menu ul li:hover{
+  border: solid 1px  #fff;
+  background-color: transparent !important;
+  cursor: pointer;
 }
